@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirish</title>
+
+    <!-- shriftlar -->
+    <link href="https://fonts.cdnfonts.com/css/mango-vintage-personal-use-only" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/alice-2" rel="stylesheet">
+
+    <!-- uslub & bootstrap -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css.map">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- ikonka -->
+    <link rel="icon" href="images/rose.png">
+</head>
+
+<body class="background-img">
+
+    <div class="logo text-center mt-2">
+        <h2 class="mb-0">Nafis iforli gullar</h2>
+    </div>
+
+    <div class="formbox animation text-center mt-4">
+        <div class="container">
+            <div class="row col-md-8 mb-md-3 mt-sm-0 mt-4">
+                <h1 class="mb-5">Kirish</h1>
+                <form action="index.html" method="POST">
+                    <div class="form-floating mb-2 mb-md-3">
+                        <input type="email" class="form-control" id="emailInput" placeholder="Email" required>
+                        <label for="emailInput">Elektron pochta</label>
+                        <p class="error1">Email noto‘g‘ri kiritilgan. Iltimos, to‘g‘ri email manzilini kiriting.</p>
+                    </div>
+                    <div class="form-floating mb-2 mb-md-3">
+                        <input type="password" class="form-control" id="passwordInput" placeholder="Parol" required>
+                        <label for="passwordInput">Parol</label>
+                        <p class="error2">Parol kamida 8 ta belgidan iborat bo‘lishi kerak, katta va kichik harflar, raqam yoki maxsus belgi bo‘lishi shart.</p>
+                        <p class="error3">Email yoki parol noto‘g‘ri. Qayta urinib ko‘ring.</p>
+                    </div>
+                    <button type="submit" class="btn">Kirish</button>
+                </form>
+                <p class="mt-4">Hisobingiz yo‘qmi? <a class="ms-1" href="register.html">Ro‘yxatdan o‘tish</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/form_validation.js"></script>
+</body>
+
+</html>
